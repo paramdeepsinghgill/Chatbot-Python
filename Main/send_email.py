@@ -854,13 +854,13 @@ while True:
                                    m.play()
                                    n = input("Whom you want to send this message?")
                                    if n == 'me':
-                                     receiver_email = 'psgillbot@gmail.com'
+                                     receiver_email = 
                                    else:
                                      receiver_email = str(n)
-                                   myemail = 'psgillbot@gmail.com'
+                                   myemail = 
                                    server = smtplib.SMTP('smtp.gmail.com',587)
                                    server.starttls()
-                                   server.login(myemail, 'param@1234')
+                                   server.login(myemail, )
                                    message = str(w)
                                    server.sendmail(myemail, receiver_email, message)
                                    server.quit()
@@ -870,10 +870,10 @@ while True:
                                      m = pyglet.resource.media('2tweet.mp3', streaming=False)
                                      m.play()
                                      w = input("What is the tweet sir?")
-                                     consumer_key = "sowy6hCPWcYmabLlJlDf4FzFr"
-                                     consumer_secret = "WgpVYsX8FoKajamHkkxnFcLnJjlJgpJ1u8GZcubPTJbcoTLhnH"
-                                     access_token = "1089739186373095424-74hb6OdXOP5hb2qNZm3YwAxbJfDxnf"
-                                     access_token_secret = "L7IURXT7F82ILfP9JC7PnMtPproeCllYaw9WBwjxkMc0N"
+                                     consumer_key = 
+                                     consumer_secret = 
+                                     access_token = 
+                                     access_token_secret = 
                                      auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
                                      auth.set_access_token(access_token, access_token_secret)
                                      api = tweepy.API(auth)
