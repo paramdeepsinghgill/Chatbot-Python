@@ -9,4 +9,4 @@ I have made a chatbot using python, it has the following features:
 6. Gives output with audio(using gtts).
  
 If you want to run this program you can download the folder and then run it on your computer using python IDLE (visit python.org).
-(Note - The tweet feature will not work because i have not aploaded the keys for it.)
+(Note - The tweet & email feature will not work because i have not uploaded the keys for it.)
